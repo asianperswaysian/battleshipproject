@@ -2,9 +2,10 @@
 var rows = 10;
 var cols = 10;
 var squareSize = 50;
-
+var letterArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
 // gets the container element
 var gameBoardContainer = document.getElementById("gameboard");
+
 
 // you can use this to convert your letters into numbers for use
 // with the 2D array
