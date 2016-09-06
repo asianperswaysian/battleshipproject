@@ -55,7 +55,7 @@ for (i = 0; i < cols; i++) {
 
 		// THIS IS WHERE YOU WILL ADD CODE FOR PART 1 TO ADD TEXT TO EACH SQUARE
     square.textContent = letterArray[j] + numberArray[i];
-		 
+
 
 
 
@@ -85,7 +85,7 @@ var gameBoard = [
 				]
 
 function fireTorpedo() {
+var torpedoInput = $("#myInputBox").val();
 
-	// Your game logic will go here!
 
 }
