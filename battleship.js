@@ -7,6 +7,7 @@ var numberArray = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
 
 
+
 // gets the container element
 var gameBoardContainer = document.getElementById("gameboard");
 
@@ -84,8 +85,20 @@ var gameBoard = [
 				[1,0,0,0,0,0,0,0,0,0]
 				]
 
-function fireTorpedo() {
-var torpedoInput = $("#myInputBox").val();
 
+var torpedofunction = $("#torpedoInput").val();
+torpedofunction  {
+	torpedoInput.substring(0,1) == rows;
+	torpedoInput.substring(1,2) == cols;
 
+}
+
+function fireTorpedo("#torpedoInput") {
+
+ if(torpedofunction==1){
+	 square == "red";
+ }
+ else{
+	 square == "gray";
+ }
 }
