@@ -73,32 +73,24 @@ for (i = 0; i < cols; i++) {
 
 // Hardcoded 2D array to indicate where the ships are placed
 var gameBoard = [
+				[0,0,0,0,0,0,0,0,0,0],
+				[0,0,1,0,0,0,0,1,0,0],
+				[0,0,0,0,0,0,0,0,0,0],
+				[0,0,1,0,0,0,0,1,0,0],
 				[0,0,0,1,1,1,1,0,0,0],
 				[0,0,0,0,0,0,0,0,0,0],
-				[0,0,0,0,0,0,0,0,0,0],
-				[0,0,0,0,0,0,1,0,0,0],
-				[0,0,0,0,0,0,1,0,0,0],
-				[1,0,0,0,0,0,1,1,1,1],
-				[1,0,0,0,0,0,0,0,0,0],
-				[1,0,0,1,0,0,0,0,0,0],
-				[1,0,0,1,0,0,0,0,0,0],
-				[1,0,0,0,0,0,0,0,0,0]
+				[1,0,0,0,0,0,0,0,0,1],
+				[1,0,0,0,0,0,0,0,0,1],
+				[1,0,0,0,0,0,0,0,0,1],
+				[1,0,0,0,0,0,0,0,0,1]
 				]
+function fireTorpedo() {
+	var userGuess = $("#userInput").val();
 
+	var rowLetter = userGuess.substring(0,1);
+	var cols = userGuess.substring(1,2);
 
-var torpedofunction = $("#torpedoInput").val();
-torpedofunction  {
-	torpedoInput.substring(0,1) == rows;
-	torpedoInput.substring(1,2) == cols;
+	gameBoard[row][cols];
+	var row = letterConversion[rowLetter, cols];
 
-}
-
-function fireTorpedo("#torpedoInput") {
-
- if(torpedofunction==1){
-	 square == "red";
- }
- else{
-	 square == "gray";
- }
 }
